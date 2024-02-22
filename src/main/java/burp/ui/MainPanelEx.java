@@ -10,6 +10,7 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
 import javax.swing.*;
+import java.awt.*;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -19,11 +20,14 @@ import java.nio.charset.StandardCharsets;
 public class MainPanelEx extends JPanel {
 
     public MainPanelEx(){
+        this.setLayout(new FlowLayout());
         this.add(new JLabel("RPCµÿ÷∑£∫"));
         JTextField rpcAddress=new JTextField();
+        rpcAddress.setPreferredSize(new Dimension(200, 30));
         this.add(rpcAddress);
         this.add(new JLabel("processor√˚£∫"));
         JTextField rpcName=new JTextField();
+        rpcName.setPreferredSize(new Dimension(100, 30));
         this.add(rpcName);
         JButton addBtn=new JButton("ÃÌº”Intruder processor");
         CloseableHttpClient client= HttpClients.createDefault();
