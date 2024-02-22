@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="processorRemote.main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/processorRemote_main_jar</output-path>
+    <root id="archive" name="processorRemote.main.jar">
+      <element id="module-output" name="processorRemote.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.3.2/b6dde38349ba9bb5e6ea6320531eae969985dae5/commons-io-1.3.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-net/commons-net/3.3/cd0d5510908225f76c5fe5a3f1df4fa44866f81e/commons-net-3.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.3/d1577ae15f01ef5438c5afc62162457c00a34713/httpclient-4.5.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.portswigger.burp.extender/burp-extender-api/1.7.13/1bf506f157f4fabec379186963ea2c976acc32c2/burp-extender-api-1.7.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.6/e3fd8ced1f52c7574af952e2e6da0df8df08eb82/httpcore-4.4.6.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Gradle: net.portswigger.burp.extender:burp-extender-api:1.7.13" />
+      <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpclient:4.5.3" />
+      <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpcore:4.4.6" />
+      <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.3.2" />
+      <element id="library" level="project" name="Gradle: commons-net:commons-net:3.3" />
+      <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+      <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.9" />
+      <element id="library" level="project" name="Gradle: commons-io:commons-io:1.3.2" />
+    </root>
+  </artifact>
+</component>

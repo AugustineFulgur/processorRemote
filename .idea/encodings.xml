@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/burp/BurpExtender.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/burp/extend/ScanObject.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/burp/indi/augusttheodor/helper/ConfigFileUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/burp/indi/augusttheodor/helper/Helper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/burp/ui/DetailTableModel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/burp/ui/MainMenu.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/burp/ui/MainPanelEx.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/burp/ui/ScanTableModel.java" charset="GBK" />
+  </component>
+</project>
