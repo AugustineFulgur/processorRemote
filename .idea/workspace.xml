@@ -10,7 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56e6ad36-7e87-4710-9589-aeac2a8c069f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/burp/indi/augusttheodor/helper/HttpReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/burp/BurpExtender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/burp/BurpExtender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/burp/indi/augusttheodor/helper/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/burp/indi/augusttheodor/helper/Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/burp/ui/MainPanelEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/burp/ui/MainPanelEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +53,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;last_opened_file_path&quot;: &quot;F:/DEV-August/processorRemote&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.1398844&quot;
   }
