@@ -41,3 +41,37 @@ server_address = ('0.0.0.0', 8000)
 httpd = HTTPServer(server_address, L)
 httpd.serve_forever()
 ````
+
+浏览器控制台：
+````
+let jm=function sendHeartbeat() {
+                fetch('http://localhost:1111/hb') // 发送GET请求到第一个路径
+                .then(response => response.text()) // 获取响应体文本
+                .then(body => {
+                    if (body !== '') {
+                    // 如果响应体不为空
+                    const originalStr = body; // 原始字符串
+                    const encryptedStr = imexamplevar(originalStr); //这里进行处理 输出 加密后的字符串
+                    const url = `http://localhost:1111/enc?key=${encodeURIComponent(originalStr)}&value=${encodeURIComponent(encryptedStr)}`; // 构建第二个路径的URL
+                    return fetch(url); // 发送GET请求到第二个路径
+                    } else {
+                    // 如果响应体为空，直接返回一个resolved的Promise对象
+                    return Promise.resolve();
+                    }
+                })
+                .then(response => {
+                    if (response && response.ok) {
+                    console.log('Data sent successfully');
+                    } else {
+                    console.log('Failed to send data');
+                    }
+                })
+                .catch(error => {
+                    console.log('Error:', error);
+                });
+            }
+    setInterval(jm, 500);
+````
+
+使用教程：
+https://www.yuque.com/august-wyz6t/gf2vao/ruqmihpa7v37i9yz
